@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Durga Rao Chintalapudi - Full Stack Java Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-indicator" id="scroll-indicator"></div>
+
+    <!-- Loader Section -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sai Durga Rao</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Sai Durga Rao Chintalapudi</span>
+                </h1>
+                <div class="typing-container">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    My name is Sai Durga Rao I'm a Full Stack Java Developer Training at Tap Academy.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://drive.google.com/file/d/1LBzUSCG4KXpsVgy6GGkEl1jPqp9vy5UD/view?usp=drive_link" 
+                       target="_blank" class="btn-primary glass-effect">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-editor">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <div class="code-dot red"></div>
+                            <div class="code-dot yellow"></div>
+                            <div class="code-dot green"></div>
+                        </div>
+                        <div class="code-title">portfolio.js</div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text"><span class="keyword">class</span> <span class="function">Developer</span> {</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <span class="code-text">  <span class="keyword">constructor</span>() {</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text">    <span class="keyword">this</span>.<span class="variable">name</span> = <span class="string">"Sai Durga Rao"</span>;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">    <span class="keyword">this</span>.<span class="variable">role</span> = <span class="string">"Full Stack Java Developer"</span>;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <span class="code-text">    <span class="keyword">this</span>.<span class="variable">skills</span> = [<span class="string">"Java"</span>, <span class="string">"HTML"</span>, <span class="string">"CSS"</span>];</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">6</span>
+                            <span class="code-text">  }</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">7</span>
+                            <span class="code-text"></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">8</span>
+                            <span class="code-text">  <span class="function">getInfo</span>() {</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">9</span>
+                            <span class="code-text">    <span class="keyword">return</span> <span class="string">`${<span class="keyword">this</span>.<span class="variable">name</span>} - ${<span class="keyword">this</span>.<span class="variable">role</span>}`</span>;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">10</span>
+                            <span class="code-text">  }</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">11</span>
+                            <span class="code-text">}</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">12</span>
+                            <span class="code-text"></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">13</span>
+                            <span class="code-text"><span class="comment">// Creating developer instance</span></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">14</span>
+                            <span class="code-text"><span class="keyword">const</span> <span class="variable">developer</span> = <span class="keyword">new</span> <span class="function">Developer</span>();</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Here are some of my recent works</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Portfolio</h3>
+                        <p class="project-description">
+                            This is a portfolio which is used to describe my achievements and showcase my work.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Food Delivery Application</h3>
+                        <p class="project-description">
+                            Full stack food delivery application with comprehensive backend and modern frontend.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Html</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-hand-paper"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hand Gesture Detection</h3>
+                        <p class="project-description">
+                            Real-time hand gesture recognition system using computer vision and machine learning techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-effect">
+                        <div class="timeline-date">Present</div>
+                        <h3 class="timeline-title">Full Stack Java Developer Training</h3>
+                        <h4 class="timeline-company">Tap Academy</h4>
+                        <p class="timeline-description">
+                            Currently training in full stack Java development, learning modern frameworks and technologies.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-effect">
+                        <div class="timeline-date">2022 - 2025</div>
+                        <h3 class="timeline-title">Bachelor of Technology</h3>
+                        <h4 class="timeline-company">Educational Institution</h4>
+                        <p class="timeline-description">
+                            Foundation in computer science and software development principles with focus on modern technologies and programming practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-effect">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3 class="skill-name">Java</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-effect">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-effect">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-effect">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-effect">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">MySQL</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item glass-effect">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>saidurgaraochintalapudi@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item glass-effect">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 9346148766</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link glass-effect">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link glass-effect">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link glass-effect">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link glass-effect">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form class="form glass-effect">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary glass-effect">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Sai Durga Rao Chintalapudi. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="constants.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
