@@ -118,7 +118,7 @@ const PORTFOLIO_DATA = {
             title: 'Full Stack Java Developer Training',
             company: 'Tap Academy',
             location: 'Bangalore, India',
-            duration: '2024 - Present',
+            duration: '2025 - Present',
             description: 'Comprehensive training in full stack Java development including Spring Framework, Hibernate, REST APIs, frontend technologies, and database management.',
             skills: ['Java', 'Spring Boot', 'Hibernate', 'MySQL', 'HTML/CSS', 'JavaScript', 'REST APIs'],
             current: true
@@ -279,3 +279,4 @@ const PORTFOLIO_DATA = {
         }
     }
 };
+
