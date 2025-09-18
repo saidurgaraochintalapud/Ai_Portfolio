@@ -6,7 +6,7 @@ A simple personal portfolio website built using **HTML, CSS, and JavaScript**.
 👉 [Click here](https://saidurgaraochintalapud.github.io/Ai_Portfolio/)
 
 ## 📸 Screenshot
-*(Add screenshot later in assets folder)*
+ Screenshot 2025-09-18 123855.png
 
 ## ⚙️ Tech Stack
 - HTML5  
