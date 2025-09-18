@@ -5,9 +5,10 @@ A simple personal portfolio website built using **HTML, CSS, and JavaScript**.
 ## 🌐 Live Demo
 👉 [Click here](https://saidurgaraochintalapud.github.io/Ai_Portfolio/)
 
-## 📸 Screenshot  
+ ## 📸 Screenshot  
 
 ![Portfolio Screenshot](assets/screenshot.png)
+
 
 
 ## ⚙️ Tech Stack
